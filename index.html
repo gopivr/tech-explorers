@@ -1,151 +1,225 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <!-- Website template by freewebsitetemplates.com -->
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Tailor Shop Website Template</title>
+	<title>TechXplorers</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<!--[if IE 7]><link rel="stylesheet" type="text/css" href="css/ie7.css"><![endif]-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to Firebase Hosting</title>
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/11.4.0/firebase-app-compat.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/11.4.0/firebase-auth-compat.js"></script>
+    <script defer src="/__/firebase/11.4.0/firebase-database-compat.js"></script>
+    <script defer src="/__/firebase/11.4.0/firebase-firestore-compat.js"></script>
+    <script defer src="/__/firebase/11.4.0/firebase-functions-compat.js"></script>
+    <script defer src="/__/firebase/11.4.0/firebase-messaging-compat.js"></script>
+    <script defer src="/__/firebase/11.4.0/firebase-storage-compat.js"></script>
+    <script defer src="/__/firebase/11.4.0/firebase-analytics-compat.js"></script>
+    <script defer src="/__/firebase/11.4.0/firebase-remote-config-compat.js"></script>
+    <script defer src="/__/firebase/11.4.0/firebase-performance-compat.js"></script>
+    <!-- 
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
+    -->
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+
+    <style media="screen">
+      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
+      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
+      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
+      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
+      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
+      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
+      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
+      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
+      @media (max-width: 600px) {
+        body, #message { margin-top: 0; background: white; box-shadow: none; }
+        body { border-top: 16px solid #ffa100; }
+      }
+    </style>
 </head>
 <body>
 	<div id="header">
-		<div>
-			<a href="index.html" id="logo"><img src="images/logo.png" alt="Logo"></a>
-			<ul>
-				<li class="current">
+		<div class="clearfix">
+			<div class="logo">
+				<a href="index.html"><img src="images/txlogo1.png" alt="LOGO" height="90" width="90"></a>
+			</div>
+			<ul class="navigation">
+				<li class="active">
 					<a href="index.html">Home</a>
 				</li>
 				<li>
-					<a href="product.html">Product</a>
+					<a href="#footer">About</a>
 				</li>
 				<li>
-					<a href="services.html">Services</a>
+					<a href="">Services</a>
+					<div>
+						<a href="./Android&IOS.html">Android & IOS Applications</a>
+						<a href="./WebApp.html">Web Applications</a>
+						<a href="./Job support & IT Consulting.html">Job Support & IT Consulting</a>
+						<a href="./IT TalentSupply.html">IT Talent Supply</a>
+						<a href="./DigitalMarketing.html">Digital Marketing</a>
+					</div>
 				</li>
 				<li>
-					<a href="blog.html">Blog</a>
+					<!-- <a href="">News</a> -->
 				</li>
+				<!-- <li>
+					<a href="">News</a>
+				</li> -->
 				<li>
-					<a href="about.html">About</a>
-				</li>
-				<li>
-					<a href="contact.html">Contact</a>
+					<a href="#footer">Contact Us</a>
 				</li>
 			</ul>
 		</div>
 	</div>
-	<div id="body">
-		<div id="featured">
-			<div class="first">
-				<div>
-					<h2>World&#8217;s Finest and Elegant Tuxedo</h2>
+	<div id="contents">
+		<div id="adbox">
+			<div class="clearfix">
+				<img src="./images/home screen for tx.png" alt="Img" height="382" width="594">
+				<div class="detail">
+					<h1>TECHXPLORERS<br> PVT LTD</h1>
+					<!-- <p>
+						But we can set<br> everything straight.
+					</p> -->
+				</div>
+			</div>
+		</div>
+		<div class="highlight">
+			<div class="clearfix">
+				<!-- <div class="testimonial">
+					<h2>Testimonials</h2>
 					<p>
-						This is just a place holder, so you can see what the site would look like. This is just a place holder, so you can see what the site would look like.
+						&ldquo;Aenean ullamcorper purus vitae nisl tristique sollicitudin. Quisque vestibulum, erat ornare.&rdquo;
 					</p>
-					<a href="product.html" id="shopnow">Shop Now</a>
-				</div>
-				<span><img src="images/tuxedo1.jpg" alt="Image"></span>
-			</div>
-			<div class="last">
-				<h3>Handcrafted and made from 100% Wool</h3>
-				<ul>
-					<li>
-						<a href="product.html"><img src="images/tuxedo2.jpg" alt="Image"></a>
-						<p>
-							This is just a place holder
-						</p>
-					</li>
-					<li>
-						<a href="product.html"><img src="images/tuxedo3.jpg" alt="Image"></a>
-						<p>
-							This is just a place holder
-						</p>
-					</li>
-				</ul>
-			</div>
-		</div>
-		<div id="content">
-			<div id="home">
-				<div class="section">
-					<h4>About</h4>
-					<h1>We are Makers of Custom Handmade Tailored Suits </h1>
-					<ul>
-						<li>
-							<img src="images/handmade1.jpg" alt="Image">
-							<h2>Handmade</h2>
-							<p>
-								This is just a place holder, so you can see what the site would look like.
-							</p>
-						</li>
-						<li>
-							<img src="images/design1.jpg" alt="Image">
-							<h2>Design</h2>
-							<p>
-								This is just a place holder, so you can see what the site would look like.
-							</p>
-						</li>
-						<li>
-							<img src="images/perfectfit1.jpg" alt="Image">
-							<h2>Perfect Fit</h2>
-							<p>
-								This is just a place holder, so you can see what the site would look like.
-							</p>
-						</li>
-					</ul>
-				</div>
-				<div class="sidebar">
-					<h4>Blog</h4>
-					<ul>
-						<li>
-							<span>May 1, 2012  posted by: Jo</span>
-							<h2>This is just a place holder,</h2>
-							<p>
-								so you can see what the site would look like. <a href="blog.html" class="readmore"> - read more</a>
-							</p>
-						</li>
-						<li>
-							<span>May 2, 2012  posted by: Anne</span>
-							<h2>This is just a place holder,</h2>
-							<p>
-								so you can see what the site would look like. <a href="blog.html" class="readmore"> - read more</a>
-							</p>
-						</li>
-						<li>
-							<span>May 3, 2012  posted by: Marie</span>
-							<h2>This is just a place holder,</h2>
-							<p>
-								so you can see what the site would look like. <a href="blog.html" class="readmore"> - read more</a>
-							</p>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div id="footer">
-		<div>
-			<div class="first">
-				<h4>Services</h4>
+					<span>-John Doe and Jane Doe-</span>
+				</div> -->
+				<h1>Welcome to TechXplorers Private Limited – Your Trusted Technology Partner</h1>
+				<p id="firstpara">
+					At TechXplorers Private Limited, we don’t just build technology – we create solutions that empower businesses, transform industries, and shape the future. With a strong commitment to innovation, reliability, and customer success, we help companies leverage the latest advancements in IT to stay ahead in a rapidly evolving digital world.
+				</p>
 				<p>
-					This website template has been designed by <a href="http://www.freewebsitetemplates.com/">Free Website Templates</a> for you, for free. You can replace all this text with your own text. You can remove any link to our website from this website template, you&#39;re free to use this website template without linking back to us. If you&#39;re having problems editing this website template, then don&#39;t hesitate to ask for help on the <a href="http://www.freewebsitetemplates.com/forums/">Forums</a>.
+					<h1>Who We Are</h1>
+					TechXplorers Private Limited is a dynamic IT company dedicated to delivering high-quality, future-ready solutions. We specialize in cutting-edge software development, artificial intelligence, cloud computing, cybersecurity, and digital transformation services. Whether you're a startup, an established enterprise, or an individual entrepreneur, we provide tailor-made solutions designed to fit your needs and exceed your expectations.
+				</p>
+				<p>
+					<h1>Why Choose TechXplorers Private Limited?</h1>
+					Innovation-Driven Approach – We continuously explore emerging technologies to deliver next-gen solutions. Customer-Centric Solutions – Our solutions are designed around your business needs and challenges. Experienced Team – Our expert developers, engineers, and consultants bring years of industry experience. Scalability & Flexibility – Whether you need a small-scale solution or enterprise-grade software, we have you covered.Commitment to Excellence – We prioritize quality, performance, and customer satisfaction in every project we undertake.
 				</p>
 			</div>
-			<div class="last">
-				<h4>Social</h4>
-				<div>
-					<a href="http://freewebsitetemplates.com/go/facebook/" target="_blank" id="facebook">Facebook</a>
-					<a href="http://freewebsitetemplates.com/go/twitter/" target="_blank" id="twitter">Twitter</a>
-					<a href="http://freewebsitetemplates.com/go/googleplus/" target="_blank" id="googleplus">Google&#43;</a>
+		</div>
+		
+		<!-- <div class="featured">
+			<h2>Why Choose Us?</h2>
+			<ul class="clearfix">
+				<li>
+					<div class="frame1">
+						<div class="box">
+							<img src="images/meeting.jpg" alt="Img" height="130" width="197">
+						</div>
+					</div>
+					<p>
+						<b>Our Team</b> Our website templates are created with inspiration, checked for quality and originality.
+					</p>
+					<a href="index.html" class="more">Read More</a>
+				</li>
+				<li>
+					<div class="frame1">
+						<div class="box">
+							<img src="images/handshake.jpg" alt="Img" height="130" width="197">
+						</div>
+					</div>
+					<p>
+						<b>get to know us more</b> Just browse through all our Free Website Templates and ﬁnd what you’re looking for.
+					</p>
+					<a href="index.html" class="more">Read More</a>
+				</li>
+				<li>
+					<div class="frame1">
+						<div class="box">
+							<img src="images/smile.jpg" alt="Img" height="130" width="197">
+						</div>
+					</div>
+					<p>
+						<b>what we offer</b> Join the discussion on our forum and meet other people in the community.
+					</p>
+					<a href="index.html" class="more">Read More</a>
+				</li>
+				<li>
+					<div class="frame1">
+						<div class="box">
+							<img src="images/family-small.jpg" alt="Img" height="130" width="197">
+						</div>
+					</div>
+					<p>
+						<b>get in touch with us</b> And we love the challenge of doing something diferent and something special.
+					</p>
+					<a href="index.html" class="more">Read More</a>
+				</li>
+			</ul>
+		</div> -->
+	</div>
+	<div id="footer">
+		<div class="clearfix" style="background-color: whitesmoke;">
+			<div class="section">
+				<h4>Social Media</h4>
+				<div style="display: flex;justify-content: space-around;">
+					<a href="https://x.com/techXplorers_"><img src="./images/ebe2b20b859a8d346bcb27d17e941e7d.png" alt="" style="width: 42px;"></a>
+					<a href="https://www.instagram.com/techxplorers.pvt.ltd/"><img src="./images/4454fe225ab38986dcb6dbd129293d52.png" alt="" style="width: 40px;"></a>
+					<a href="https://www.facebook.com/profile.php?id=61571029190090"><img src="./images/f136175f89dafd837eb1d6437ccd9896.png" alt="" style="width: 40px;"></a>
+					<a href="https://www.youtube.com/@TechXplorersofficial"><img src="./images/7587c31b66a9cbd7bb31be8581fe9836.png" alt="" style="width: 40px;"></a>
+					<a href="https://www.linkedin.com/company/techxplorers-private-limited/"><img src="./images/b6406f5a159e0754fd965aea41906435.png" alt="" style="width: 40px;"></a>
 				</div>
-				<h4>Newsletter</h4>
-				<form action="index.html">
-					<input type="text" id="newsletter" value="Enter Email Address">
-					<input type="submit" id="go" value="go">
-				</form>
+				
+				<!-- <p>
+					This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text. You can remove any link.
+				</p> -->
+			</div>
+			<div class="section contact">
+				<!-- <h4>Contact Us</h4>
+				<p>
+					<span>Address:</span> Maruthi Nagar 3rd Cross,near Panda Mini  Mart, Anantapur, 515001
+				</p>
+				<p>
+					<span>Phone:</span> (+20) 000 222 999
+				</p>
+				<p>
+					<span>Email:</span> txhr@techxplorers.in
+				</p> -->
+			</div>
+			<div class="section" style="color: black;">
+				<h4>Contact Us</h4>
+				<p>
+					<span>Address:</span> Maruthi Nagar 3rd Cross,near Panda Mini  Mart, Anantapur, 515001
+				</p>
+				<p>
+					<span>Phone:</span> +91 93906 01802<br>
+					<span>Landline 1 :</span> 08554310112<br>
+					<span>Landline 2 :</span> 08554351372
+				</p>
+				<p>
+					<span>Email:</span> txhr@techxplorers.in
+				</p>
+				<!-- <p>
+					If you're having problems editing this website template, then don't hesitate to ask for help on the Forums.
+				</p> -->
+				<!-- <a href="#" class="subscribe">Click to send us an email</a> -->
 			</div>
 		</div>
-		<p class="footnote">
-			&copy; Copyright 2012. All rights reserved.
-		</p>
+		<div id="footnote" >
+			<div class="clearfix">
+				<!-- <div class="connect">
+					<a href="#" class="facebook"></a><a href="#" class="twitter"></a><a href="#" class="googleplus"></a><a href="#" class="pinterest"></a>
+				</div> -->
+				<p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+					© Copyright 2023 TechXplorers Pvt Ltd. All Rights Reserved.
+				</p>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
